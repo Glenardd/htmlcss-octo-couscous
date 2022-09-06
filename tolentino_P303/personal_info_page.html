@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="Jan Glenard Tolentino">
+	<title>Personal info</title>
+</head>
+<body>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		input{
+			padding: 10px;
+			border: none;
+			font-family: sans-serif;
+		}
+
+		#bg{
+			background-color: lightblue;
+			padding: 5%;
+			position: absolute;
+			transform: translate(-50%, -50%);
+			top: 50%;
+			left: 50%;
+			border-radius: 25px;
+
+		}
+
+		input[type=submit]{
+			padding: 10px 65px;
+			color: darkblue;
+
+		}
+		h2{
+			color: darkblue;
+			font-family: sans-serif;
+		}
+		#submit{
+			font-family: sans-serif;
+			background-color: white;
+			border-radius: 5px;
+			padding: 5px 5px;
+			padding-left: 10px;
+			padding-right: 10px;
+			position: absolute;
+			left: 120px;
+			color: darkblue;
+			text-decoration: none;
+		}
+
+	</style>
+	<div id="bg">
+		<div id="intro"><h2>PERSONAL INFO</h2></div>
+		<form>
+			<input type="name" name="name" placeholder="Full name"><br><br>
+			<input type="address" name="address" placeholder="Address"><br><br>
+			<input type="contact" name="contact" placeholder="Contact number"><br><br>
+			<input type="temperature" name="temperature" placeholder="Temperature"><br><br>
+			<a href="records.html" id="submit">CONFIRM</a>
+		</form>
+	</div>
+</body>
+</html>
